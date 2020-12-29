@@ -51,8 +51,7 @@ nav{
     top:104px;
 }
 .join-nav{
-    background:#f4f4f4;
-    
+    background: #f63232;   
 }
 nav ul{
     white-space: nowrap;
@@ -64,6 +63,17 @@ nav li a{
     text-decoration: none;
     color: #4b4b4b;
 
+}
+nav.join-nav{
+    position:relative;
+    padding:20px 40px;
+    left: 2em;
+    width:100%;
+          
+}
+
+nav.join-nav li a{
+    color:#f4f4f4;
 }
 
 nav li a.join{
